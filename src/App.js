@@ -101,6 +101,9 @@ const App = () => {
 
   return (
     <div className="container">
+        <div className="heading" >
+            <h1>ELECTRICITY BILL GENERATOR</h1>
+        </div>
       <div className="cards-container">
         <div>
           {!isLoading && (
